@@ -7,6 +7,7 @@ import authRoutes from "./src/routes/auth.routes.js";
 import transactionRoutes from "./src/routes/transaction.routes.js";
 import categoryRoutes from "./src/routes/category.routes.js";
 import dashboardRoutes from "./src/routes/dashboard.routes.js";
+import { setupSwagger } from "./src/swagger.js";
 
 dotenv.config();
 
@@ -17,11 +18,12 @@ app.use(helmet());
 app.use(cors());
 app.use(express.json());
 
-// Endpoints
 app.use("/api/auth", authRoutes);
 app.use("/api/transactions", transactionRoutes);
 app.use("/api/categories", categoryRoutes);
 app.use("/api/dashboard", dashboardRoutes);
+
+setupSwagger(app);
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
