@@ -25,7 +25,6 @@ app.use("/api/transactions", transactionRoutes);
 app.use("/api/categories", categoryRoutes);
 app.use("/api/dashboard", dashboardRoutes);
 
-setupSwagger(app);
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
