@@ -24,7 +24,7 @@ CREATE TABLE transactions(
     amount DECIMAL(12,2) NOT NULL,
     description TEXT,
     transaction_date DATE NOT NULL,
-    created_date  TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_date  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 
     CONSTRAINT transaction_type_check
         CHECK (type IN ('income', 'expense')),
