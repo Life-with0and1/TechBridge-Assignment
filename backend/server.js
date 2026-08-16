@@ -9,7 +9,6 @@ import categoryRoutes from "./src/routes/category.routes.js";
 import dashboardRoutes from "./src/routes/dashboard.routes.js";
 import swaggerUi from "swagger-ui-express";
 import swaggerSpec from "./src/swagger.js";
-import { setupSwagger } from "./src/swagger.js";
 
 dotenv.config();
 
