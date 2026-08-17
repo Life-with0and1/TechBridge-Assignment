@@ -4,10 +4,6 @@ A full-stack **Finance Tracker** application for managing income, expenses, cate
 
 ## Live Application
 
-### Backend API
-
-https://finance-tracker-backend-rece.onrender.com
-
 ### Swagger API Documentation
 
 https://finance-tracker-backend-rece.onrender.com/api-docs
