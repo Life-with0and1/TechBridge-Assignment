@@ -18,6 +18,18 @@ https://techbridge-assignment.onrender.com
 
 ---
 
+## Demo Credentials
+
+The application includes three pre-seeded accounts for testing different roles.
+
+| Role | Email | Password |
+|------|-------|----------|
+| Admin | admin@finance.com | Admin123 |
+| User | user@finance.com | User123 |
+| Read-only | readonly@finance.com | Readonly123 |
+
+> These accounts are provided for assignment evaluation and demonstration purposes.
+
 ## Features
 
 ### Authentication
